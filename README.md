@@ -32,7 +32,7 @@ SM_EMAIL_REPORT_TMPL_BODY = 'job stats: {{ spider.crawler.stats._stats }}'
 
 Currently verbatim template strings are supported for flexible scraper configuration (you can change these remotely with no deploy).
 
-As for template variables, what's available to you is your `spider` and `reason` instances directly. Do what ever you want with those in the templates directly. 
+As for template variables, what's available to you is your `spider` and `reason` instances directly. Do what ever you want with those in the templates. 
 
 
 ## Developers
