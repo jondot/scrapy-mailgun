@@ -10,12 +10,12 @@ with open('LICENSE') as f:
 
 setup(
     name='scrapy-mailgun',
-    version='0.1.0',
+    version='0.3.0',
     description='scrapy-mailgun: Hook emails with scrapy.',
     long_description=readme,
     author='Dotan Nahum',
     author_email='jondotan@gmail.com',
     url='https://github.com/jondot/scrapy-mailgun',
     license=license,
-    packages=find_packages(exclude=('tests', 'docs')),
+    packages=['scrapymailgun'],
     install_requires=['requests', 'jinja2'])
