@@ -24,8 +24,6 @@ SM_KEY = 'key-XXXXXXXXXXXXXXXXX'
 SM_FROM = 'from-email@acme.org'
 SM_TO = 'to-email@acme.org'  # comma sparated
 
-# try loading file if fails interpret as string
-# hueristic: its a file if matches against *.tmpl
 SM_EMAIL_REPORT_TMPL_SUBJECT = 'Your spider [{{spider.name}}] is done: {{reason}}'
 SM_EMAIL_REPORT_TMPL_BODY = 'job stats: {{ spider.crawler.stats._stats }}'
 ```
